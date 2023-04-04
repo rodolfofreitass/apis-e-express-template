@@ -1,4 +1,4 @@
-import { COURSE_STACK, TCourse } from "./types"
+import { COURSE_STACK, TCourse, TStudent } from "./types"
 
 export const courses: TCourse[] = [
     {
@@ -20,3 +20,17 @@ export const courses: TCourse[] = [
         stack: COURSE_STACK.BACK
     }
 ]
+
+export const students: TStudent[] = [
+    {
+        id: "001",
+        name: "Rodolfo",
+        age: 29
+    },
+    {
+        id: "002",
+        name: "Maria",
+        age: 32
+    },
+]
+
