@@ -12,6 +12,8 @@ app.listen(3003, () => {
     console.log("Servidor rodando na porta 3003")
 })
 
+//GET DE TESTE
+
 app.get('/ping', (req: Request, res: Response) => {
     res.send('Pong!')
 })
